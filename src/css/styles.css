@@ -1,0 +1,572 @@
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FONTS----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "DroidSans";
+    src: url('../fonts/DroidSans/Regular/droidsans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "DroidBold";
+    src: url('../fonts/DroidSans/Bold/droidsansBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "DroidSerif";
+    src: url('../fonts/DroidSerif/droidserif.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+ul, ol, li {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    font: 22px "DroidSans", sans-serif;
+    color: #2c3e50;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    outline: none;
+}
+
+h3 {
+    font: 45px "DroidBold", sans-serif;
+}
+
+h4 {
+    font: 26px "DroidBold", sans-serif;
+}
+
+input, textarea {
+    outline: none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER +Welcome Section----------------------*/
+/*----------------------------------------------------------------------------------*/
+.welcome-section {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.welcome-section .logo {
+    width: 140px;
+    height: 52px;
+    overflow: hidden;
+}
+
+.welcome-section .logo h1 {
+    text-indent: -9999px;
+}
+
+.welcome-hdr {
+    padding-top: 50px;
+    width: 1170px;
+    max-width: 100%;
+}
+
+.welcome-section .sc-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+
+}
+
+.navigation-list {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.navigation-list li {
+    float: left;
+}
+
+.navigation-list a {
+    display: inline-block;
+    color: #fff;
+    line-height: 31px;
+    padding: 0 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+/*-----------------BS---------------------------*/
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    float: right;
+    transform: translateY(30%)
+}
+
+.navbar-fixed-top {
+    position: static;
+}
+
+.navbar-inverse {
+    background: transparent;
+    border: none;
+}
+
+.navbar-nav li {
+    background: transparent;
+    border-radius: 30px;
+    transition: .25s linear;
+}
+
+.navbar-nav li:hover {
+    background: #2ecc71;
+    border-radius: 30px;
+}
+
+.navbar-nav > li > a {
+    display: inline-block;
+    line-height: 31px;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 7px;
+}
+
+/*------------------------/BS-------------------------------*/
+.welcome-slogan {
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    text-align: center;
+}
+
+.welcome-slogan h2, .welcome-slogan p {
+    font: 80px "DroidBold", sans-serif;
+}
+
+.scroll-icon {
+    color: #fff;
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    border: 0;
+    padding-top: 70px;
+    transform: translateX(-50%);
+    font: 27px "DroidSerif", serif;
+    background: transparent url("../images/scroll.png") 50% 0 no-repeat;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------About Section------------------------------------------------------*/
+.about-sc {
+    background: #34495e;
+    padding: 110px 0 100px;
+    color: #fff;
+    position: relative;
+}
+
+.about-hdr {
+    text-align: center;
+    padding-bottom: 55px;
+    color: #fff;
+}
+
+.about-text {
+    margin: 0 100px;
+    text-align: left;
+    font: 24px "DroidSerif", serif;
+    padding-bottom: 125px;
+}
+
+.service-list li {
+    text-align: center;
+    padding-top: 180px;
+}
+
+.service-list li h4 {
+    padding-bottom: 35px;
+}
+
+.service-list .services {
+    background: url("../images/services.png") 50% 0 no-repeat;
+}
+
+.service-list .retina {
+    background: url("../images/retina.png") 50% 0 no-repeat;
+}
+
+.service-list .support {
+    background: url("../images/support.png") 50% 0 no-repeat;
+}
+
+/*----------------Portfolio Section--------------------------------------------*/
+
+.portfolio-sc {
+    padding: 125px 0 115px;
+    color: #fff;
+
+}
+
+.portfolio-hdr {
+    padding-bottom: 110px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.portfolio-hdr h3 {
+    padding-bottom: 65px;
+}
+
+.portfolio-btn-list li {
+    display: inline-block;
+}
+
+.portfolio-btn-list button {
+    display: inline-block;
+    background: transparent;
+    color: #2c3e50;
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font: 30px "DroidSans", sans-serif;
+    transition: .25s linear;
+}
+
+.portfolio-btn-list button:hover {
+    color: #fff;
+    background: #2ecc71;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.item-list li {
+    padding: 24px;
+    position: relative;
+}
+
+.item-list li img {
+    width: 100%;
+    height: auto;
+}
+
+.item-list .none {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 24px;
+    background: #34495e;
+    text-align: center;
+    transition: .25s linear;
+}
+
+.item-list li:hover .none {
+    visibility: visible;
+    opacity: .9;
+}
+
+.item-list .none h4 {
+    padding: 60px 0 20px;
+    font-size: 35px;
+}
+
+.item-list .none .view-btn {
+    display: inline-block;
+    font: 12px "DroidSerif", serif;
+    line-height: 26px;
+    padding: 0 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .25s linear;
+}
+
+.item-list .none .view-btn:hover {
+    border: transparent;
+    background: #2ecc71;
+    color: #fff;
+}
+
+/*--------------------------Team Section----------------------------------------*/
+.team-sc {
+    background: #2980b9;
+    background-size: cover;
+    padding: 110px 0 100px;
+    color: #fff;
+}
+
+.team-hdr {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.team-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+}
+
+.team-list .members {
+    padding: 0 50px;
+}
+
+.team-list .members img {
+    border: 5px solid #fff;
+    border-radius: 200px;
+}
+
+.team-list .members h4 {
+    padding: 30px 035px;
+}
+
+.team-list .members p {
+    padding-bottom: 50px;
+}
+
+.social-list li {
+    display: inline-block;
+    width: 59px;
+    height: 58px;
+    margin: 0 15px;
+}
+
+.social-list li a {
+    display: block;
+    width: 59px;
+    height: 58px;
+    text-indent: -9999px;
+}
+
+.social-list .twitter {
+    background: url("../images/sprite.png") 0 50% no-repeat;
+}
+
+.social-list .inst {
+    background: url("../images/sprite.png") 100% 50% no-repeat;
+}
+
+/*---------------------Contact Section-----------------------------------------*/
+.contact-sc {
+    padding: 120px 0 110px;
+}
+
+.contact-hdr {
+    color: #2c3e50;
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+.contact-hdr h3 {
+    padding-bottom: 70px;
+}
+
+.contact-hdr p {
+    font: 26px "DroidBold", sans-serif;
+}
+
+.contact-wrap {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-wrap form {
+    margin-right: 50px;
+}
+
+.contact-wrap form input {
+    border: 0;
+    border-bottom: 3px solid #2ecc71;
+    min-width: 380px;
+    height: 85px;
+}
+
+.contact-wrap form input[placeholder] {
+    padding-top: 45px;
+}
+
+.contact-wrap li textarea {
+    border: none;
+    border-bottom: 3px solid #2ecc71;
+    resize: none;
+    min-width: 380px;
+    height: 200px;
+    margin-bottom: 45px;
+}
+
+.contact-wrap li textarea[placeholder] {
+    padding-top: 70px;
+}
+
+::-webkit-input-placeholder {
+    color: #2c3e50;
+}
+
+.contact-wrap .form-list .submit-btn {
+    line-height: 33px;
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: none;
+    font: 21px "DroidSerif", serif;
+    background: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-wrap address {
+    color: #2c3e50;
+}
+
+.contact-wrap address li p {
+    font: 16px "DroidSans", sans-serif;
+}
+
+.contact-wrap .address-list li {
+    padding-top: 50px;
+}
+
+.contact-wrap .address-list a {
+    color: #2c3e50;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+footer {
+    background: #2c3e50;
+    background-size: cover;
+    color: #fff;
+}
+
+footer .footer-hdr {
+    padding: 75px 0 40px;
+}
+
+footer .footer-address-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-list {
+    margin-right: 80px;
+}
+
+.footer-social-list li {
+    display: inline-block;
+    width: 59px;
+    height: 58px;
+    margin: 0 10px;
+}
+
+.footer-social-list li a {
+    display: block;
+    width: 59px;
+    height: 58px;
+    text-indent: -9999px;
+}
+
+.footer-social-list .twitter {
+    background: url("../images/sprite.png") 0 50% no-repeat;
+}
+
+.footer-social-list .facebook {
+    background: url("../images/sprite.png") 50% 50% no-repeat;
+}
+
+.footer-social-list .inst {
+    background: url("../images/sprite.png") 100% 50% no-repeat;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OTHER----------------------------------------*/
+.affix {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    padding: 10px 50px;
+    background: #122b40;
+    opacity: 0.7;
+    border-radius: 0 0 10px 10px;
+    background-size: cover;
+    z-index: 9999;
+}
+
+/*----------------------------------------------------------------------------------*/

@@ -1,0 +1,272 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-list li {
+        padding: 180px 170px 90px;
+    }
+
+    .about-sc {
+        padding-bottom: 40px;
+    }
+
+    .about-text {
+        margin: 0 50px;
+    }
+
+    /*------------------------------------*/
+    .portfolio-sc {
+        padding-bottom: 65px;
+    }
+
+    /*------------------------------------------*/
+    .team-list {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-list .members {
+        padding: 0 200px 70px;
+    }
+
+    .team-sc {
+        padding-bottom: 0;
+    }
+
+    /*----------------------------------------------------*/
+    .contact-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-hdr {
+        padding-bottom: 65px;
+    }
+
+    .contact-hdr h3 {
+        padding-bottom: 50px;
+    }
+
+    .contact-wrap .form-list li {
+        padding-left: 50px;
+    }
+
+    .contact-wrap form input {
+        min-width: 548px;
+    }
+
+    .contact-wrap li textarea {
+        min-width: 548px;
+    }
+
+    .contact-wrap address li {
+        padding: 50px 85px;
+        text-align: left;
+    }
+
+    /*------------------------------------------------------*/
+    .footer-social-list {
+        margin-right: 0;
+    }
+}
+
+/*-------------------ExtraSmall Devices----------------------------------------------*/
+
+@media (max-width: 767px) {
+    .welcome-hdr {
+        width: 100vw;
+    }
+
+    .welcome-slogan {
+        top: 38%;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding: 0 10px;
+        border: none;
+        font-size: 24px;
+    }
+
+    .nav > li > a {
+        padding: 10px 5px;
+    }
+
+    .nav > li {
+        float: none;
+    }
+
+    .navbar-nav {
+        transform: translateY(-30%);
+        margin: 45px -15px 0;
+        padding-top: 10px;
+        text-align: center;
+        float: none;
+    }
+
+    .navbar-nav li {
+        background: transparent;
+        border-radius: 0;
+    }
+
+    .navbar-nav li:hover {
+        background: #2ecc71;
+        opacity: .85;
+        border-radius: 0;
+    }
+
+    .welcome-slogan h2, .welcome-slogan p {
+        font: 42px "DroidBold", sans-serif;
+        margin: 0;
+    }
+
+    .navbar-nav > li:hover > a {
+        border: none;
+    }
+
+    .about-sc {
+        padding-bottom: 30px;
+    }
+
+    .about-text {
+        margin: 0;
+        padding-bottom: 60px;
+    }
+
+    .service-list li {
+        padding-bottom: 60px;
+    }
+
+    .portfolio-hdr {
+        padding-bottom: 70px;
+    }
+
+    .item-list li {
+        padding: 15px;
+    }
+
+    .item-list .none {
+        margin: 15px;
+    }
+
+    .portfolio-sc {
+        padding: 35px 0 35px;
+    }
+
+    .item-list .none h4 {
+        padding-top: 60px;
+        font-size: 35px;
+    }
+
+    .item-list .none .view-btn {
+        font: 20px "DroidSerif", serif;
+        line-height: 35px;
+    }
+
+    /*--------------------------------------------*/
+    .team-list {
+        flex-direction: column;
+    }
+
+    .team-list .members {
+        padding: 0 20px 25px;
+    }
+
+    .team-sc {
+        padding-bottom: 0;
+    }
+
+    /*----------------------------------------------*/
+    .contact-wrap {
+        flex-direction: column;
+    }
+
+    .contact-wrap form input {
+        min-width: 100%;
+    }
+
+    .contact-wrap li textarea {
+        min-width: 100%;
+    }
+
+    .contact-wrap form {
+        margin-right: 0;
+    }
+
+    .contact-wrap .form-list li:last-child {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .contact-wrap .address-list li {
+        padding-top: 30px;
+    }
+
+    .contact-wrap .address-list strong {
+        font-size: 16px;
+    }
+
+    .contact-sc {
+        padding-bottom: 70px;
+    }
+
+    footer .footer-address-list {
+        flex-direction: column;
+    }
+
+    .footer-address-list li p {
+        font-size: 16px;
+    }
+
+    .footer-social-list {
+        margin-right: 0;
+    }
+
+    .footer-social-list li {
+        margin: 10px 10px 0 0;
+    }
+
+    .welcome-section {
+        background: url("../images/header-bg.jpg") 50% 50% no-repeat;
+        background-size: cover;
+    }
+
+    .welcome-section .sc-video {
+        display: none;
+    }
+
+    .affix {
+        width: 100%;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-height: 420px) {
+    .welcome-slogan {
+        top: 45%;
+    }
+
+    .welcome-slogan h2, .welcome-slogan p {
+        font-size: 34px;
+    }
+
+    .navbar-nav {
+        margin: 10px -15px 0;
+    }
+
+    .nav > li {
+        display: inline-block;
+    }
+
+    .navbar-nav > li > a {
+        line-height: 15px;
+        font-size: 18px;
+    }
+
+    .scroll-icon {
+        bottom: 2%;
+        left: 10%;
+        font-size: 18px;
+    }
+}
