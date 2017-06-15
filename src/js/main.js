@@ -17,10 +17,11 @@ $(document).ready(function () {
 //---Scroll button END -----------
 
 //-------------ISOTOPE-----------------
-
-    $('.item-list').isotope({
-        layoutMode: 'fitRows',
-        itemSelector: '.portfolio'
+    $('.item-list').imagesLoaded(function(){
+        $('.item-list').isotope({
+            layoutMode: 'fitRows',
+            itemSelector: '.portfolio'
+        });
     });
 
     $('.filter-button-group').on('click', 'button', function () {
